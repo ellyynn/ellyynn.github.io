@@ -1,0 +1,7 @@
+<h1>Books</h1>
+<div>
+  @for (book of bookList(); track book.id) {
+    <div>Id : {{book.id}}</div>
+    <div>Title : {{book.title}}</div>
+  }
+</div>
